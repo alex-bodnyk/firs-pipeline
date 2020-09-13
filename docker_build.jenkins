@@ -34,7 +34,7 @@ pipeline {
             steps {
                 echo " ============== start pushing image =================="
                 sh '''
-                docker push alex01019/toolbox:latest
+                docker push alex0109/toolbox:latest
                 '''
             }
         }
